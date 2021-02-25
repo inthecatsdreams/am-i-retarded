@@ -32,7 +32,7 @@ int main() {
     sceCtrlSetSamplingMode(PSP_CTRL_MODE_ANALOG);
  
     struct SceCtrlData padData;
-    pspDebugScreenPrintf("Press X if you're a male\nPress O if you're a female\nPress /\\ if you're none of the above fits your gender\n");
+    pspDebugScreenPrintf("Press X if you're a male\nPress O if you're a female\nPress /\\ if none of the above fits your gender\n");
     while(1){
         sceCtrlReadBufferPositive(&padData,1);
  
